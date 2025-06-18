@@ -55,7 +55,7 @@ const randomValue = getRandomValue(0, 10);
 const randomProbablity = getRandomValue(0, 101);
 
 currentForecastTitle.textContent = generateForecastText(randomValue)
-currentForecastProbability.textContent = Вероятность: ${randomProbablity}%
+currentForecastProbability.textContent = Вероятность: `${randomProbablity}%`
 }
 
 function addForecastToList() {
