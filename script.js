@@ -13,12 +13,11 @@
 /* При генерации нового предсказания старое предсказание должно добавляться в начало списка «Мои предсказания» — .forecasts  */
 
 /* Для добавления предсказания в список воспользуйся шаблоном forecast-item */
-
+const forecastBtn = document.querySelector('.forecast-btn');
 const currentForecastTitle = document.querySelector ('.current-forecast h1');
 const currentForecastProbability = document.querySelector('.current-forecast p');
 const forecastsContainer = document.querySelector('.forecasts');
 const forecastTemplate = document.querySelector('#forecast-item');
-const forecastBtn = document.querySelector('.forecast-btn');
 
 forecastBtn.addEventListener('click', function() {
 addForecastToList();
