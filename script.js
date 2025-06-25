@@ -18,6 +18,7 @@ const currentForecastTitle = document.querySelector ('.current-forecast h1');
 const currentForecastProbability = document.querySelector('.current-forecast p');
 const forecastsContainer = document.querySelector('.forecasts');
 const forecastTemplate = document.querySelector('#forecast-item');
+const forecastBtn = document.querySelector('.forecast-btn');
 
 forecastBtn.addEventListener('click', function() {
 addForecastToList();
